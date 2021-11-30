@@ -40,5 +40,5 @@ steps:
   displayName: 'Publish build artifact'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'main-drop'
+    ArtifactName: 'drop'
     publishLocation: 'Container'
