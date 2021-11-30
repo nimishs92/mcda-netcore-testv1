@@ -40,5 +40,5 @@ steps:
   displayName: 'Publish build artifact'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'qa-drop'
+    ArtifactName: 'drop'
     publishLocation: 'Container'
